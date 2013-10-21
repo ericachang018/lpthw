@@ -1,0 +1,3 @@
+# adding comments in Python... 
+print"I could have stuff and then a comment.... " # here is my comment
+print "but you wont see it =D"
