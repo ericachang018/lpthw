@@ -1,23 +1,17 @@
-from sys import argv
+# Here's some new strange stuff, remember type it exactly.
 
-script, user_name = argv 
-prompt = '> '
+days = "Mon Tue Wed Thu Fri Sat Sun"
+# \n means new line 
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-print "Hi %s, I'm the %s script" % (user_name, script)
-print "I'd like to ask you a few questions."
-print "Do you like me %s?" % user_name
-likes = raw_input(prompt)
-
-print "Where do you live %s" % user_name
-lives = raw_input (prompt)
-
-print "What kind of computer do you have?" 
-computer = raw_input(prompt)
+print "Here are the days: ", days
+print "Here are the months: ", months
 
 print """
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+"""
 
-Alright, So you said %r about liking me. 
-You live in %r. Not sure where that is. 
-And you have a %r computer. Nice 
 
-""" % (likes, lives, computer)
