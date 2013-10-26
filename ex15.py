@@ -1,4 +1,13 @@
-#Exercise 15: Reading Files 
+# Exercise 15: Reading Files 
+# To run this program type 
+# >> python ex15.py ex15_sample.txt 
+# when the script prompts you for another file to open 
+# you can type in ex15_more.txt or any other file you want open
+
+# ^__^ http://docs.python.org/release/2.5.2/lib/bltin-file-objects.html
+# More http://docs.python.org/2/tutorial/inputoutput.html:
+
+
 from sys import argv 
 script, filename = argv 
 # Open is a built in python function which will open files 
@@ -16,4 +25,6 @@ new_text = open(new_file)
 # open the file first before it becomes a file object!!!
 print new_text.read() 
 
-
+# Now I'm going to close my files since thats good practice 
+txt.close()
+new_text.close() 
