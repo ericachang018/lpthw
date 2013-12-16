@@ -38,5 +38,20 @@ def print_first_and_last_sorted(sentance):
 	print_last_word(words)
 
 
+# In the python interperter try out these commands. And play around with your functions. 
+# >>> import ex25
+# >>> sentence = "All good things come to those who wait."
+# >>> words = ex25.break_words(sentence)
+# >>> words
+# ['All', 'good', 'things', 'come', 'to', 'those', 'who', 'wait.']
+# >>> sorted_words = ex25.sort_words(words)
+# >>> sorted_words
+# ['All', 'come', 'good', 'things', 'those', 'to', 'wait.', 'who']
+# >>> ex25.print_first_word(words)
+# All
+# >>> ex25.print_last_word(words)
+# wait.
+# >>> wrods
+
 
 
